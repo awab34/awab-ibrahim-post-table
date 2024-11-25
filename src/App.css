@@ -1,0 +1,19 @@
+.ant-input-group-wrapper {
+  width: 200px !important;
+}
+.ant-table-wrapper .ant-table {
+  font-size: 14px !important;
+}
+@media (max-width: 500px) {
+  .ant-input-group-wrapper {
+    width: 180px !important;
+  }
+  .ant-table-wrapper .ant-table {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 400px) {
+  .ant-table-wrapper .ant-table {
+    font-size: 8px !important;
+  }
+}
